@@ -248,7 +248,7 @@ body {
   to {
     stroke-dashoffset: 0; } }
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1370px) {
   .intro-block-1 h1 {
     font-size: 60px; }
   .mini-vs {
