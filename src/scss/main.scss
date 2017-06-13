@@ -301,7 +301,41 @@ $fillTime: 0.3s;
   }
 }
 
+// Small Desktop
+@media screen and (max-width: 1320px) {
+    .intro-block-1 {
+        h1 {
+            font-size: 60px;
+        }
+    }
 
+    .mini-vs {
+        top: -20px;
+
+        img {
+            height: 50px;
+        }
+    }
+
+    .underline {
+        margin-top: 25px;
+    }
+
+    .intro-section {
+        padding-top: 5%;
+        padding-bottom: 8%;
+    }
+
+    .logo-techday {
+        left: calc(50% - 100px);
+        bottom: -150px !important;
+        .main-rect {
+            width: 200px;
+            height: 203px;
+            padding: 40px 35px;
+        }
+    }
+}
 
 // MOBILE
 @media screen and (max-width: 414px) {
