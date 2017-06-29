@@ -303,12 +303,33 @@ body {
   padding: 75px 0;
   width: 100%; }
   .about-section .content {
-    background-color: #ffffff;
+    background: url(../img/bg-about-text.png) no-repeat right center #ffffff;
+    background-size: auto 100%;
     width: 100%;
+    padding: 45px 30px;
     position: relative;
     -webkit-box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.11);
     -moz-box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.11);
     box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.11); }
+    .about-section .content h2 {
+      background: url(../img/line.png) no-repeat left center transparent;
+      display: inline;
+      text-align: left;
+      line-height: 0;
+      margin-left: 15px;
+      padding-left: 60px;
+      padding-top: 0; }
+    .about-section .content p {
+      font-size: 17px;
+      line-height: 24px;
+      margin-left: 80px;
+      margin-top: 30px;
+      max-width: 40%;
+      text-align: left; }
+    .about-section .content svg {
+      bottom: -35px;
+      position: absolute;
+      right: -35px; }
 
 .sponsors-section {
   display: block;
