@@ -13,8 +13,6 @@ body {
     font-family: Muli, sans-serif;
     color: #707d8f;
     font-size: 18px;
-    line-height: 29px;
-
     overflow-x: hidden;
 
     h2 {
@@ -25,6 +23,10 @@ body {
       margin-bottom: 50px;
       padding-top: 15px;
       text-align: center;
+    }
+
+    p {
+      line-height: 29px;
     }
 }
 
@@ -416,19 +418,64 @@ $fillTime: 0.3s;
 
 // SECTION: Place
 .place-section {
+  background: url(../img/local-section-bg.png) no-repeat center #ffffff;
+  background-size: 100% auto;
   display:block;
   margin: 50px 0;
+  min-height: 500px;
   position:relative;
+  text-align: center;
   width:100%;
+
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    color: #333333;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 30px;
+    text-align: center;
+  }
+
+  svg {
+    display: block;
+    margin: 15px auto;
+  }
+
+  a {
+    background-color: #176abd;
+    color: #feffff;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .local-image {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+
+    img {
+      max-width: 100%;
+    }
+  }
 }
 
 // SECTION: footer
 .footer {
   background-color: #176abd;
   color: #ffffff;
-  display: block;
+  display: inline-block;
+  min-height: 30px;
+  padding: 15px 0;
   width: 100%;
-
   img {
     max-height: 30px;
     width: auto;
@@ -437,17 +484,19 @@ $fillTime: 0.3s;
   .column-left {
     display: inline;
     float: left;
-    width:70%;
+    width:82%;
   }
 
   .column-right {
+    border-left: 1px solid #ffffff;
     display: inline;
     float: left;
-    width:30%;
+    text-align: right;
+    width:18%;
 
     a {
       text-decoration: none;
-      margin: 0 7px;
+      margin: 0 10px;
     }
 
     a:hover {
